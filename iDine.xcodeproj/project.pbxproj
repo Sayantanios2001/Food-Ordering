@@ -7,19 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		385A788C26BB2B2A006050CD /* DeepLabV3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 385A788B26BB2B2A006050CD /* DeepLabV3.mlmodel */; };
+		38B8A52026B912A800F09393 /* Razorpay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B8A51E26B9129500F09393 /* Razorpay.framework */; };
+		38B8A52126B912A800F09393 /* Razorpay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38B8A51E26B9129500F09393 /* Razorpay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		38BF4C7E26B523D100B1173D /* iDineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BF4C7D26B523D100B1173D /* iDineApp.swift */; };
 		38BF4C8026B523D100B1173D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BF4C7F26B523D100B1173D /* ContentView.swift */; };
 		38BF4C8226B523D500B1173D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38BF4C8126B523D500B1173D /* Assets.xcassets */; };
 		38BF4C8526B523D500B1173D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38BF4C8426B523D500B1173D /* Preview Assets.xcassets */; };
+		38BF4C8F26B5248D00B1173D /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BF4C8E26B5248D00B1173D /* Helper.swift */; };
+		38BF4C9126B5249900B1173D /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BF4C9026B5249900B1173D /* Menu.swift */; };
+		38BF4C9326B5249E00B1173D /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BF4C9226B5249E00B1173D /* Order.swift */; };
+		38BF4C9526B524F900B1173D /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 38BF4C9426B524F900B1173D /* menu.json */; };
+		38BF4C9726B52D1100B1173D /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BF4C9626B52D1100B1173D /* ItemRow.swift */; };
+		38BF4C9926B5597F00B1173D /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BF4C9826B5597F00B1173D /* ItemDetail.swift */; };
+		38BF4C9B26B5646600B1173D /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BF4C9A26B5646600B1173D /* OrderView.swift */; };
+		38BF4C9D26B5673100B1173D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BF4C9C26B5673100B1173D /* MainView.swift */; };
+		38BF4C9F26B56AC800B1173D /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BF4C9E26B56AC800B1173D /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		38B8A52226B912A800F09393 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				38B8A52126B912A800F09393 /* Razorpay.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		385A788B26BB2B2A006050CD /* DeepLabV3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DeepLabV3.mlmodel; sourceTree = "<group>"; };
+		38B8A51E26B9129500F09393 /* Razorpay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Razorpay.framework; sourceTree = "<group>"; };
 		38BF4C7A26B523D100B1173D /* iDine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38BF4C7D26B523D100B1173D /* iDineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDineApp.swift; sourceTree = "<group>"; };
 		38BF4C7F26B523D100B1173D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		38BF4C8126B523D500B1173D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38BF4C8426B523D500B1173D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		38BF4C8626B523D500B1173D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38BF4C8E26B5248D00B1173D /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		38BF4C9026B5249900B1173D /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		38BF4C9226B5249E00B1173D /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		38BF4C9426B524F900B1173D /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		38BF4C9626B52D1100B1173D /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		38BF4C9826B5597F00B1173D /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		38BF4C9A26B5646600B1173D /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		38BF4C9C26B5673100B1173D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		38BF4C9E26B56AC800B1173D /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38B8A52026B912A800F09393 /* Razorpay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,8 +91,19 @@
 			isa = PBXGroup;
 			children = (
 				38BF4C7D26B523D100B1173D /* iDineApp.swift */,
+				38BF4C8E26B5248D00B1173D /* Helper.swift */,
+				38BF4C9426B524F900B1173D /* menu.json */,
+				38BF4C9226B5249E00B1173D /* Order.swift */,
+				38BF4C9026B5249900B1173D /* Menu.swift */,
+				38B8A51E26B9129500F09393 /* Razorpay.framework */,
 				38BF4C7F26B523D100B1173D /* ContentView.swift */,
+				38BF4C9826B5597F00B1173D /* ItemDetail.swift */,
+				38BF4C9A26B5646600B1173D /* OrderView.swift */,
+				38BF4C9C26B5673100B1173D /* MainView.swift */,
+				38BF4C9E26B56AC800B1173D /* CheckoutView.swift */,
+				38BF4C9626B52D1100B1173D /* ItemRow.swift */,
 				38BF4C8126B523D500B1173D /* Assets.xcassets */,
+				385A788B26BB2B2A006050CD /* DeepLabV3.mlmodel */,
 				38BF4C8626B523D500B1173D /* Info.plist */,
 				38BF4C8326B523D500B1173D /* Preview Content */,
 			);
@@ -79,6 +128,7 @@
 				38BF4C7626B523D100B1173D /* Sources */,
 				38BF4C7726B523D100B1173D /* Frameworks */,
 				38BF4C7826B523D100B1173D /* Resources */,
+				38B8A52226B912A800F09393 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +176,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38BF4C9526B524F900B1173D /* menu.json in Resources */,
 				38BF4C8526B523D500B1173D /* Preview Assets.xcassets in Resources */,
 				38BF4C8226B523D500B1173D /* Assets.xcassets in Resources */,
 			);
@@ -138,8 +189,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38BF4C9926B5597F00B1173D /* ItemDetail.swift in Sources */,
+				38BF4C9D26B5673100B1173D /* MainView.swift in Sources */,
+				38BF4C9F26B56AC800B1173D /* CheckoutView.swift in Sources */,
+				38BF4C9B26B5646600B1173D /* OrderView.swift in Sources */,
 				38BF4C8026B523D100B1173D /* ContentView.swift in Sources */,
+				385A788C26BB2B2A006050CD /* DeepLabV3.mlmodel in Sources */,
 				38BF4C7E26B523D100B1173D /* iDineApp.swift in Sources */,
+				38BF4C9326B5249E00B1173D /* Order.swift in Sources */,
+				38BF4C9726B52D1100B1173D /* ItemRow.swift in Sources */,
+				38BF4C9126B5249900B1173D /* Menu.swift in Sources */,
+				38BF4C8F26B5248D00B1173D /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +331,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"iDine/Preview Content\"";
 				DEVELOPMENT_TEAM = F228LQD9RV;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iDine",
+				);
 				INFOPLIST_FILE = iDine/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -293,6 +357,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"iDine/Preview Content\"";
 				DEVELOPMENT_TEAM = F228LQD9RV;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iDine",
+				);
 				INFOPLIST_FILE = iDine/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
